@@ -1,4 +1,5 @@
 // mandatory params
+
 @description('The unique DNS prefix for your cluster, such as myakscluster. This cannot be updated once the Managed Cluster has been created.')
 param dnsPrefix string = resourceGroup().name // name is obtained from env
 
